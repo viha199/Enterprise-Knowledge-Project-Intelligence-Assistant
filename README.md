@@ -1,105 +1,290 @@
-# AI Agent
+# Enterprise Knowledge & Project Intelligence Assistant
 
-Agent built using Google's Gemini AI with real-time streaming responses using Gemini 2.5 Flash Lite model.
+An AI-powered enterprise assistant built using Google Gemini API that helps users with:
 
-## Setup
+* AI/ML project recommendations
+* Technology stack suggestions
+* Dataset recommendations
+* Learning roadmaps
+* Enterprise SOP guidance
+* Real-time conversational assistance
 
-1. **Install dependencies:**
+Built with **Node.js**, **Express**, **TypeScript**, and **Google Gemini 2.5 Flash**.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. **Get a Gemini API key:**
-   - Visit [Google AI Studio](https://aistudio.google.com/app/apikey)
-   - Sign in with your Google account
-   - Click "Create API Key"
-   - Copy the generated API key
+# Features
 
-3. **Set up environment variables:**
+## AI Project Recommendations
 
-   - Copy `env.example` to `.env`
-   - Add your Gemini API key to the `.env` file:
-     ```
-     GOOGLE_GENERATIVE_AI_API_KEY=your_actual_api_key_here
-     ```
+Get intelligent project ideas for domains like:
 
-4. **Run the application:**
+* Artificial Intelligence
+* Machine Learning
+* NLP
+* Cybersecurity
+* Data Science
+* CRM
+* Finance
+* Healthcare
 
-   ```bash
-   npm run dev
-   ```
+---
 
-   The application will automatically:
+## Technology Stack Guidance
 
-   - Start the server and open the chat interface in your browser
-   - Check if your API key is configured
-   - Show setup instructions if the API key is missing
-   - Allow you to configure the API key and restart the server
+The assistant suggests:
 
-5. Access the application in the browser:
-   ```sh
-   https://<STUDIO_HOST_ID>-3000.<STUDIO_DOMAIN>
-   ```
+* Frontend technologies
+* Backend frameworks
+* ML libraries
+* Databases
+* Deployment platforms
 
-Or use terminal/rest client to send requests to the application.
-Example:
+based on your selected project.
 
-```sh
-curl 'http://localhost:3000/api/chat' \
-  -H 'Accept: */*' \
-  -H 'Connection: keep-alive' \
-  -H 'Content-Type: application/json' \
-  --data-raw '{"message":"What is the weather in Tokyo?"}'
-```
+---
 
-## FAQs & Debugging
+## Dataset Recommendations
 
-### 1. I do not see browser in my workspace
+Get relevant datasets for your projects including:
 
-Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser
+* Kaggle datasets
+* Public AI datasets
+* Financial datasets
+* NLP corpora
+* Healthcare datasets
 
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
+---
 
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vscode/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.<STUDIO_DOMAIN>`
+## Learning Roadmaps
 
-### 2. API Key Setup
+Generate step-by-step implementation plans including:
 
-**The browser shows setup instructions instead of the chat:**
+* Beginner to advanced roadmap
+* Project phases
+* Required skills
+* Deployment guidance
 
-- This means your API key is not configured
-- Follow the step-by-step instructions shown in the browser
-- Get your API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
-- Add it to your `.env` file: `GOOGLE_GENERATIVE_AI_API_KEY=your_actual_api_key_here`
-- Restart the server and click "Check Again"
+---
 
-**403 Forbidden or "Invalid API key" error in the chat:**
+## Real-Time AI Chat
 
-- Your API key may be expired or invalid
-- Get a new API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
-- Update your `.env` file with the new key
-- Restart the application
+* Streaming AI responses
+* Context-aware conversations
+* Multi-turn chat memory
+* Fast Gemini-powered responses
 
-**The chat interface shows API key error messages:**
+---
 
-- The application will automatically detect API key issues
-- Follow the instructions in the error message
-- Click the provided link to get a new API key
+# Tech Stack
 
-## API Reference
+| Technology        | Purpose                  |
+| ----------------- | ------------------------ |
+| Node.js           | Backend runtime          |
+| Express.js        | API server               |
+| TypeScript        | Type safety              |
+| Google Gemini API | AI responses             |
+| AI SDK            | AI streaming integration |
+| HTML/CSS/JS       | Frontend UI              |
 
-The application uses the [Google Generative AI SDK](https://github.com/googleapis/js-genai) with the Gemini 2.5 Flash Lite model for fast, efficient responses.
+---
 
-## Project Structure
+# Project Structure
 
-```
-ai-gemini-js/
+```bash
+ai-agent/
+│
 ├── src/
-│   └── app.ts          # Express server with Socket.IO
+│   ├── app.ts
+│   └── tools.ts
+│
 ├── public/
-│   └── index.html      # Chat interface
-├── package.json        # Dependencies and scripts
-├── env.example         # Environment variables template
-└── README.md           # This file
+│   └── index.html
+│
+├── package.json
+├── tsconfig.json
+├── .env
+├── env.example
+└── README.md
 ```
+
+---
+
+# Screenshots
+
+## Home Interface
+
+Add screenshot here:
+
+```bash
+public/screenshots/home.png
+```
+
+## Chat Interface
+
+Add screenshot here:
+
+```bash
+public/screenshots/chat.png
+```
+
+---
+
+# Demo
+
+Add your deployed application link here:
+
+```bash
+https://your-demo-link.com
+```
+
+---
+
+# Installation & Setup
+
+## 1. Clone the Repository
+
+```bash
+git clone <your-repository-url>
+cd ai-agent
+```
+
+---
+
+## 2. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 3. Create Environment File
+
+Create a `.env` file in the root directory:
+
+```env
+GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
+PORT=3000
+```
+
+---
+
+## 4. Get Gemini API Key
+
+1. Visit:
+   https://aistudio.google.com/app/apikey
+
+2. Login with Google account
+
+3. Click:
+   "Create API Key"
+
+4. Copy the generated key
+
+---
+
+## 5. Run the Application
+
+```bash
+npm run dev
+```
+
+---
+
+# Access the Application
+
+Open:
+
+```bash
+http://localhost:3000
+```
+
+OR
+
+```bash
+https://<STUDIO_HOST_ID>-3000.<STUDIO_DOMAIN>
+```
+
+---
+
+# Example Queries
+
+You can ask:
+
+* "Suggest AI projects for healthcare"
+* "Give roadmap for fraud detection system"
+* "Recommend datasets for NLP"
+* "Explain ML technology stack"
+* "Generate CRM project ideas"
+
+---
+
+# API Reference
+
+## Chat Endpoint
+
+```http
+POST /api/chat
+```
+
+### Request Body
+
+```json
+{
+  "message": "Suggest AI projects for finance"
+}
+```
+
+---
+
+# Future Improvements
+
+* Authentication system
+* Database integration
+* Vector search
+* RAG pipeline
+* PDF upload support
+* Voice assistant
+* Multi-agent workflows
+
+---
+
+# Troubleshooting
+
+## Port Already in Use
+
+```bash
+fuser -k 3000/tcp
+```
+
+---
+
+## Invalid API Key
+
+* Verify your Gemini API key
+* Restart server after updating `.env`
+
+---
+
+## Quota Exceeded Error
+
+Free-tier Gemini APIs have request limits.
+
+You can:
+
+* Wait for quota reset
+* Use another API key
+* Upgrade billing plan
+
+---
+
+# License
+
+MIT License
+
+---
+
+# Author
+
+Developed as an AI-powered Enterprise Assistant using Google Gemini.
