@@ -9,7 +9,168 @@ An AI-powered enterprise assistant built using Google Gemini API that helps user
 * Enterprise SOP guidance
 * Real-time conversational assistance
 
-Built with **Node.js**, **Express**, **TypeScript**, and **Google Gemini 2.5 Flash**.
+Built with **Node.js**, **Express**, **TypeScript**, and **Google Gemini**.
+
+---
+
+# Application Overview
+
+The Enterprise Knowledge & Project Intelligence Assistant enables users to discover innovative AI projects, explore suitable datasets, select technology stacks, and generate detailed implementation roadmaps through natural language conversations.
+
+---
+
+## Home Screen
+
+When the application launches, users are greeted with a conversational AI assistant capable of providing project intelligence and technical guidance.
+
+![Home Screen](screenshots/Screenshot 1.png)
+
+The assistant supports:
+
+* AI Project Recommendations
+* Technology Stack Guidance
+* Dataset Suggestions
+* Learning Roadmaps
+* Enterprise SOP Assistance
+
+---
+
+## AI Project Recommendations
+
+Users can ask for project ideas in domains such as Artificial Intelligence, Machine Learning, NLP, Cybersecurity, Finance, Healthcare, CRM, and more.
+
+### Example Query
+
+```text
+AI Project Ideas
+```
+
+### Example Response
+
+![AI Project Ideas](screenshots/Screenshot 2.png)
+![AI Project Ideas Continued](screenshots/Screenshot 2.png)
+![AI Project Ideas Continued](screenshots/Screenshot 3.png)
+![AI Project Ideas Continued](screenshots/Screenshot 4.png)
+![AI Project Ideas Continued](screenshots/Screenshot 5.png)
+![AI Project Ideas Continued](screenshots/Screenshot 6.png)
+![AI Project Ideas Continued](screenshots/Screenshot 7.png)
+
+The assistant provides:
+
+* Project Name
+* Project Description
+* Recommended Datasets
+* Technology Stack
+* Implementation Suggestions
+
+---
+
+## Personalized Project Selection
+
+Users can select any suggested project and continue the discussion naturally.
+
+### Example Query
+
+```text
+Personalized Learning Platform is good.
+```
+
+The assistant remembers the previous conversation context and generates detailed implementation guidance.
+
+---
+
+## Project Roadmap Generation
+
+The assistant generates a complete implementation roadmap with development phases and milestones.
+
+![Roadmap Generation](screenshots/Screenshot 8.png)
+![Roadmap Generation Continued](screenshots/Screenshot 9.png)
+![Roadmap Generation Continued](screenshots/Screenshot 10.png)
+![Roadmap Generation Continued](screenshots/Screenshot 11.png)
+![Roadmap Generation Continued](screenshots/Screenshot 12.png)
+![Roadmap Generation Continued](screenshots/Screenshot 13.png)
+![Roadmap Generation Continued](screenshots/Screenshot 14.png)
+![Roadmap Generation Continued](screenshots/Screenshot 15.png)
+![Roadmap Generation Continued](screenshots/Screenshot 16.png)
+![Roadmap Generation Continued](screenshots/Screenshot 17.png)
+![Roadmap Generation Continued](screenshots/Screenshot 18.png)
+
+The roadmap includes:
+
+### Phase 1
+
+* Requirement Analysis
+* Data Collection
+* Database Design
+
+### Phase 2
+
+* Platform Development
+* User Management
+* Assessment Engine
+
+### Phase 3
+
+* AI Model Development
+* Recommendation Engine
+* Performance Prediction
+
+### Phase 4
+
+* Adaptive Learning Features
+* Personalized Feedback
+* User Experience Improvements
+
+### Phase 5
+
+* Deployment
+* Monitoring
+* Continuous Improvement
+
+---
+
+## Technology Stack Recommendations
+
+The assistant suggests suitable technologies based on project requirements.
+
+
+Recommendations may include:
+
+* Programming Languages
+* Frontend Frameworks
+* Backend Frameworks
+* Machine Learning Libraries
+* Databases
+* Cloud Platforms
+
+---
+
+## Dataset Recommendations
+
+The assistant recommends relevant datasets from trusted sources.
+
+Examples include:
+
+* Kaggle Datasets
+* UCI Machine Learning Repository
+* Financial Datasets
+* Healthcare Datasets
+* NLP Corpora
+* Research Datasets
+
+---
+
+## Multi-Turn Conversational Intelligence
+
+The assistant maintains conversation context and supports follow-up questions.
+
+### Example
+
+```text
+Give me implementation roadmap
+```
+
+The assistant understands the previously selected project and continues the discussion without requiring users to repeat information.
 
 ---
 
@@ -32,60 +193,61 @@ Get intelligent project ideas for domains like:
 
 ## Technology Stack Guidance
 
-The assistant suggests:
+The assistant recommends:
 
-* Frontend technologies
-* Backend frameworks
-* ML libraries
+* Frontend Technologies
+* Backend Frameworks
 * Databases
-* Deployment platforms
-
-based on your selected project.
+* Machine Learning Libraries
+* Cloud Platforms
+* Deployment Strategies
 
 ---
 
 ## Dataset Recommendations
 
-Get relevant datasets for your projects including:
+Get relevant datasets for:
 
-* Kaggle datasets
-* Public AI datasets
-* Financial datasets
-* NLP corpora
-* Healthcare datasets
+* AI Projects
+* Machine Learning
+* NLP Applications
+* Fraud Detection
+* Healthcare Analytics
+* Customer Analytics
 
 ---
 
 ## Learning Roadmaps
 
-Generate step-by-step implementation plans including:
+Generate structured implementation plans including:
 
-* Beginner to advanced roadmap
-* Project phases
-* Required skills
-* Deployment guidance
+* Beginner to Advanced Learning Path
+* Development Phases
+* Required Skills
+* Deployment Guidance
+* Best Practices
 
 ---
 
 ## Real-Time AI Chat
 
-* Streaming AI responses
-* Context-aware conversations
-* Multi-turn chat memory
-* Fast Gemini-powered responses
+* Streaming AI Responses
+* Context-Aware Conversations
+* Multi-Turn Memory
+* Fast Gemini-Powered Responses
 
 ---
 
 # Tech Stack
 
-| Technology        | Purpose                  |
-| ----------------- | ------------------------ |
-| Node.js           | Backend runtime          |
-| Express.js        | API server               |
-| TypeScript        | Type safety              |
-| Google Gemini API | AI responses             |
-| AI SDK            | AI streaming integration |
-| HTML/CSS/JS       | Frontend UI              |
+| Technology          | Purpose               |
+| ------------------- | --------------------- |
+| Node.js             | Backend Runtime       |
+| Express.js          | API Server            |
+| TypeScript          | Type Safety           |
+| Google Gemini API   | AI Responses          |
+| AI SDK              | Streaming Integration |
+| HTML/CSS/JavaScript | Frontend Interface    |
 
 ---
 
@@ -101,6 +263,27 @@ ai-agent/
 ├── public/
 │   └── index.html
 │
+├── screenshots/
+│   ├── Screenshot 1.png
+│   ├── Screenshot 2.png
+│   ├── Screenshot 3.png
+│   ├── Screenshot 4.png
+│   ├── Screenshot 5.png
+│   ├── Screenshot 6.png
+│   ├── Screenshot 7.png
+│   ├── Screenshot 8.png
+│   ├── Screenshot 9.png
+│   ├── Screenshot 10.png
+│   ├── Screenshot 11.png
+│   ├── Screenshot 12.png
+│   ├── Screenshot 13.png
+│   ├── Screenshot 14.png
+│   ├── Screenshot 15.png
+│   ├── Screenshot 16.png
+│   ├── Screenshot 17.png
+│   └── Screenshot 18.png
+
+│
 ├── package.json
 ├── tsconfig.json
 ├── .env
@@ -110,48 +293,18 @@ ai-agent/
 
 ---
 
-# Screenshots
-
-## Home Interface
-
-Add screenshot here:
-
-```bash
-public/screenshots/home.png
-```
-
-## Chat Interface
-
-Add screenshot here:
-
-```bash
-public/screenshots/chat.png
-```
-
----
-
-# Demo
-
-Add your deployed application link here:
-
-```bash
-https://your-demo-link.com
-```
-
----
-
 # Installation & Setup
 
-## 1. Clone the Repository
+## Clone Repository
 
 ```bash
-git clone <your-repository-url>
+git clone <repository-url>
 cd ai-agent
 ```
 
 ---
 
-## 2. Install Dependencies
+## Install Dependencies
 
 ```bash
 npm install
@@ -159,7 +312,7 @@ npm install
 
 ---
 
-## 3. Create Environment File
+## Create Environment File
 
 Create a `.env` file in the root directory:
 
@@ -170,21 +323,17 @@ PORT=3000
 
 ---
 
-## 4. Get Gemini API Key
+## Get Gemini API Key
 
-1. Visit:
-   https://aistudio.google.com/app/apikey
-
-2. Login with Google account
-
-3. Click:
-   "Create API Key"
-
+1. Visit Google AI Studio
+2. Sign in with your Google account
+3. Create an API Key
 4. Copy the generated key
+5. Add it to your `.env` file
 
 ---
 
-## 5. Run the Application
+## Run the Application
 
 ```bash
 npm run dev
@@ -200,23 +349,33 @@ Open:
 http://localhost:3000
 ```
 
-OR
-
-```bash
-https://<STUDIO_HOST_ID>-3000.<STUDIO_DOMAIN>
-```
+Or access the hosted URL provided by your workspace environment.
 
 ---
 
 # Example Queries
 
-You can ask:
+Try asking:
 
-* "Suggest AI projects for healthcare"
-* "Give roadmap for fraud detection system"
-* "Recommend datasets for NLP"
-* "Explain ML technology stack"
-* "Generate CRM project ideas"
+```text
+Suggest AI projects for healthcare
+```
+
+```text
+Recommend datasets for fraud detection
+```
+
+```text
+Give roadmap for personalized learning platform
+```
+
+```text
+Suggest technology stack for NLP chatbot
+```
+
+```text
+Generate CRM project ideas
+```
 
 ---
 
@@ -240,13 +399,14 @@ POST /api/chat
 
 # Future Improvements
 
-* Authentication system
-* Database integration
-* Vector search
-* RAG pipeline
-* PDF upload support
-* Voice assistant
-* Multi-agent workflows
+* Vector Database Integration
+* Retrieval-Augmented Generation (RAG)
+* Authentication & Authorization
+* PDF Upload Support
+* Knowledge Base Integration
+* Voice Assistant
+* Multi-Agent Workflows
+* Project Export Functionality
 
 ---
 
@@ -263,15 +423,16 @@ fuser -k 3000/tcp
 ## Invalid API Key
 
 * Verify your Gemini API key
-* Restart server after updating `.env`
+* Update the `.env` file
+* Restart the application
 
 ---
 
 ## Quota Exceeded Error
 
-Free-tier Gemini APIs have request limits.
+Free Gemini API plans have usage limits.
 
-You can:
+Possible solutions:
 
 * Wait for quota reset
 * Use another API key
@@ -287,4 +448,4 @@ MIT License
 
 # Author
 
-Developed as an AI-powered Enterprise Assistant using Google Gemini.
+Developed as an AI-powered Enterprise Knowledge & Project Intelligence Assistant using Google Gemini.
