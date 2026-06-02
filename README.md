@@ -23,7 +23,7 @@ The Enterprise Knowledge & Project Intelligence Assistant enables users to disco
 
 When the application launches, users are greeted with a conversational AI assistant capable of providing project intelligence and technical guidance.
 
-![Home Screen](screenshots/Screenshot 1.png)
+![Home Screen](screenshots/Screenshot_1.png)
 
 The assistant supports:
 
@@ -47,13 +47,13 @@ AI Project Ideas
 
 ### Example Response
 
-![AI Project Ideas](screenshots/Screenshot 2.png)
-![AI Project Ideas Continued](screenshots/Screenshot 2.png)
-![AI Project Ideas Continued](screenshots/Screenshot 3.png)
-![AI Project Ideas Continued](screenshots/Screenshot 4.png)
-![AI Project Ideas Continued](screenshots/Screenshot 5.png)
-![AI Project Ideas Continued](screenshots/Screenshot 6.png)
-![AI Project Ideas Continued](screenshots/Screenshot 7.png)
+![AI Project Ideas](screenshots/Screenshot_2.png)
+![AI Project Ideas Continued](screenshots/Screenshot_2.png)
+![AI Project Ideas Continued](screenshots/Screenshot_3.png)
+![AI Project Ideas Continued](screenshots/Screenshot_4.png)
+![AI Project Ideas Continued](screenshots/Screenshot_5.png)
+![AI Project Ideas Continued](screenshots/Screenshot_6.png)
+![AI Project Ideas Continued](screenshots/Screenshot_7.png)
 
 The assistant provides:
 
@@ -83,17 +83,17 @@ The assistant remembers the previous conversation context and generates detailed
 
 The assistant generates a complete implementation roadmap with development phases and milestones.
 
-![Roadmap Generation](screenshots/Screenshot 8.png)
-![Roadmap Generation Continued](screenshots/Screenshot 9.png)
-![Roadmap Generation Continued](screenshots/Screenshot 10.png)
-![Roadmap Generation Continued](screenshots/Screenshot 11.png)
-![Roadmap Generation Continued](screenshots/Screenshot 12.png)
-![Roadmap Generation Continued](screenshots/Screenshot 13.png)
-![Roadmap Generation Continued](screenshots/Screenshot 14.png)
-![Roadmap Generation Continued](screenshots/Screenshot 15.png)
-![Roadmap Generation Continued](screenshots/Screenshot 16.png)
-![Roadmap Generation Continued](screenshots/Screenshot 17.png)
-![Roadmap Generation Continued](screenshots/Screenshot 18.png)
+![Roadmap Generation](screenshots/Screenshot_8.png)
+![Roadmap Generation Continued](screenshots/Screenshot_9.png)
+![Roadmap Generation Continued](screenshots/Screenshot_10.png)
+![Roadmap Generation Continued](screenshots/Screenshot_11.png)
+![Roadmap Generation Continued](screenshots/Screenshot_12.png)
+![Roadmap Generation Continued](screenshots/Screenshot_13.png)
+![Roadmap Generation Continued](screenshots/Screenshot_14.png)
+![Roadmap Generation Continued](screenshots/Screenshot_15.png)
+![Roadmap Generation Continued](screenshots/Screenshot_16.png)
+![Roadmap Generation Continued](screenshots/Screenshot_17.png)
+![Roadmap Generation Continued](screenshots/Screenshot_18.png)
 
 The roadmap includes:
 
@@ -264,24 +264,24 @@ ai-agent/
 │   └── index.html
 │
 ├── screenshots/
-│   ├── Screenshot 1.png
-│   ├── Screenshot 2.png
-│   ├── Screenshot 3.png
-│   ├── Screenshot 4.png
-│   ├── Screenshot 5.png
-│   ├── Screenshot 6.png
-│   ├── Screenshot 7.png
-│   ├── Screenshot 8.png
-│   ├── Screenshot 9.png
-│   ├── Screenshot 10.png
-│   ├── Screenshot 11.png
-│   ├── Screenshot 12.png
-│   ├── Screenshot 13.png
-│   ├── Screenshot 14.png
-│   ├── Screenshot 15.png
-│   ├── Screenshot 16.png
-│   ├── Screenshot 17.png
-│   └── Screenshot 18.png
+│   ├── Screenshot_1.png
+│   ├── Screenshot_2.png
+│   ├── Screenshot_3.png
+│   ├── Screenshot_4.png
+│   ├── Screenshot_5.png
+│   ├── Screenshot_6.png
+│   ├── Screenshot_7.png
+│   ├── Screenshot_8.png
+│   ├── Screenshot_9.png
+│   ├── Screenshot_10.png
+│   ├── Screenshot_11.png
+│   ├── Screenshot_12.png
+│   ├── Screenshot_13.png
+│   ├── Screenshot_14.png
+│   ├── Screenshot_15.png
+│   ├── Screenshot_16.png
+│   ├── Screenshot_17.png
+│   └── Screenshot_18.png
 
 │
 ├── package.json
